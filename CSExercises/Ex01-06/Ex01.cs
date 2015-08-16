@@ -12,7 +12,7 @@ namespace CSExercises
         {
 
             String power;
-            Console.Write("Enter your name: ");
+            Console.Write("Enter your name: "); // testing 
             power = Console.ReadLine();
             Console.WriteLine("Good Morning " + power);
             Console.ReadKey();
