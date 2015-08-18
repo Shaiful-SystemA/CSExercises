@@ -10,7 +10,18 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            string salary;
+            double Total;
+            double jay;
+            string dollar;
+            Console.Write("Enter your salary: ");
+            salary = Console.ReadLine();
+            jay = Convert.ToDouble(salary);
+            Total = ((0.1*jay) + (0.03*jay) + jay);
+            dollar = Total.ToString("C");
+            Console.Write("Your total in come is : "  + dollar +Total);
+            Console.ReadKey();
+
         }
     }
 }

@@ -10,7 +10,16 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double FromX1, fare;
+
+            Console.Write("Enter distance travel: ");
+            FromX1 = Convert.ToDouble(Console.ReadLine());
+
+            fare = Math.Round(2.40 + (0.4 * FromX1),1);
+            Console.Write("Your total fare is  : {0:0.00} ", fare);
+            Console.ReadKey();
         }
     }
 }
+
+
